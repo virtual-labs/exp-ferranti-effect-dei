@@ -1,39 +1,96 @@
 {
   "version": 2.0,
+  "quiz_title": "QUIZ - Transmission Lines",
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "num": 1,
+      "question": "A transmission line of length more than 160 Km and line voltage higher 100 kV then it is called:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Short Transmission line",
+        "b": "Medium Transmission line",
+        "c": "Long Transmission line",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Short lines are less than 80 km.",
+        "b": "Incorrect. Medium lines are 80-160 km.",
+        "c": "Correct. Lines longer than 160 km and above 100 kV are considered long transmission lines.",
+        "d": "Incorrect."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "num": 2,
+      "question": "If the overhead transmission line is loaded with the loading equal to the surge impedance, then the voltage at receiving end is:",
+      "answers": {
+        "a": "Greater than the sending end",
+        "b": "Less than the sending end",
+        "c": "Equals to the sending end",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. That happens under light load (Ferranti effect).",
+        "b": "Incorrect.",
+        "c": "Correct. When loaded with surge impedance (Zc), the line is flat-compensated and Vs = Vr.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "num": 3,
+      "question": "The parameters of a transmission line for exact solution are:",
+      "answers": {
+        "a": "Distributed parameters",
+        "b": "Lumped parameters",
+        "c": "mixed parameters",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Correct. Exact solution of long transmission lines requires considering distributed parameters (R, L, C, G per unit length).",
+        "b": "Incorrect. Lumped parameters are used for approximate solutions (short/medium lines).",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "num": 4,
+      "question": "The value of charging current at the receiving end of the transmission line is:",
+      "answers": {
+        "a": "Zero",
+        "b": "Moderate",
+        "c": "Equal to load current",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Correct. At the receiving end, charging current is zero because the line is open at that point for charging current consideration.",
+        "b": "Incorrect.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "num": 5,
+      "question": "The square root of the ratio of line impedance to its shunt admittance is called:",
+      "answers": {
+        "a": "Regulation of the transmission line",
+        "b": "Surge impedance of the transmission line",
+        "c": "Conductance of the transmission line",
+        "d": "Surge admittance of the transmission line"
+      },
+      "explanations": {
+        "a": "Incorrect. Regulation is voltage drop percentage.",
+        "b": "Correct. Surge impedance Zc = √(Z/Y) = √(L/C).",
+        "c": "Incorrect.",
+        "d": "Incorrect. Surge admittance is 1/Zc."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
