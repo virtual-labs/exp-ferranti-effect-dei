@@ -1,10 +1,9 @@
 {
   "version": 2.0,
-  "quiz_title": "QUIZ - Transmission Lines",
   "questions": [
     {
-      "num": 1,
-      "question": "A transmission line of length more than 160 Km and line voltage higher 100 kV then it is called:",
+     
+      "question": " 1. A transmission line of length more than 160 Km and line voltage higher 100 kV then it is called:",
       "answers": {
         "a": "Short Transmission line",
         "b": "Medium Transmission line",
@@ -21,8 +20,8 @@
       "difficulty": "beginner"
     },
     {
-      "num": 2,
-      "question": "If the overhead transmission line is loaded with the loading equal to the surge impedance, then the voltage at receiving end is:",
+     
+      "question": "2. If the overhead transmission line is loaded with the loading equal to the surge impedance, then the voltage at receiving end is:",
       "answers": {
         "a": "Greater than the sending end",
         "b": "Less than the sending end",
@@ -39,8 +38,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 3,
-      "question": "The parameters of a transmission line for exact solution are:",
+   
+      "question": "3. The parameters of a transmission line for exact solution are:",
       "answers": {
         "a": "Distributed parameters",
         "b": "Lumped parameters",
@@ -57,8 +56,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 4,
-      "question": "The value of charging current at the receiving end of the transmission line is:",
+      
+      "question": "4. The value of charging current at the receiving end of the transmission line is:",
       "answers": {
         "a": "Zero",
         "b": "Moderate",
@@ -75,8 +74,8 @@
       "difficulty": "advanced"
     },
     {
-      "num": 5,
-      "question": "The square root of the ratio of line impedance to its shunt admittance is called:",
+
+      "question": "5. The square root of the ratio of line impedance to its shunt admittance is called:",
       "answers": {
         "a": "Regulation of the transmission line",
         "b": "Surge impedance of the transmission line",
