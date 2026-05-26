@@ -1,1 +1,1 @@
-## To study the Ferranti Effect of transmission line/cable.
+## Study of the Ferranti Effect in a Transmission Line or Cable
