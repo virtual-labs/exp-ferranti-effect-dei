@@ -7,7 +7,7 @@
 5. Increase the length of line.
 6. Repeat the steps 2-5.
 
-   # Connection Diagram of Experiment - 9
+## Connection Diagram of Experiment 
 
 <center>
 
@@ -17,7 +17,7 @@
 
 </center>
 
-# Observations of Experiment - 9
+
 
 ## Observation Table
 
@@ -36,11 +36,33 @@
 | 11 | 330 | | | | |
 | 12 | 360 | | | | |
 
+
+
 ## Effect of Transmission Line Length
 
-Click to see effect on:
+Click to see Effect of Transmission Line Length on:
 
-- [Sending end voltage](Vi.html)
-- [Receiving end voltage](Vo.html)
-- [Charging current](Ic.html)
-- [Change in voltage ΔV i.e. (V<sub>o</sub> - V<sub>i</sub>)](dv.html)
+1. [Sending end voltage](Vi.html)
+2. [Receiving end voltage](Vo.html)
+3. [Charging current](Ic.html)
+4. [Change in voltage ΔV i.e. (V<sub>o</sub> - V<sub>i</sub>)](dv.html)
+
+---
+
+## Graphs
+
+### Sending End Voltage
+
+<img class="pad" src="images/vi.bmp" alt="Sending End Voltage Graph">
+
+### Receiving End Voltage
+
+<img class="pad" src="images/vo.bmp" alt="Receiving End Voltage Graph">
+
+### Charging Current
+
+<img class="pad" src="images/ic.bmp" alt="Charging Current Graph">
+
+### Change in Voltage (ΔV)
+
+<img class="pad" src="images/dv.bmp" alt="Voltage Change Graph">
