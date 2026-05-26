@@ -7,15 +7,18 @@
 5. Increase the length of line.
 6. Repeat the steps 2-5.
 
+   
+
+  
 ## Connection Diagram of Experiment 
 
-<center>
+<div align="center">
 
 ![Experimental Setup for studying the Ferranti Effect](images/diagram-9.jpeg)
 
 **Fig 9.1: Experimental Setup for studying the Ferranti Effect**
 
-</center>
+</div>
 
 
 
@@ -38,18 +41,12 @@
 
 
 
-## Effect of Transmission Line Length
+  
+## Effect of Transmission Line Length  Graphs
 
-Click to see Effect of Transmission Line Length on:
 
-1. [Sending end voltage](Vi.html)
-2. [Receiving end voltage](Vo.html)
-3. [Charging current](Ic.html)
-4. [Change in voltage ΔV i.e. (V<sub>o</sub> - V<sub>i</sub>)](dv.html)
+<div align="center">
 
----
-
-## Graphs
 
 ### Sending End Voltage
 
@@ -66,3 +63,5 @@ Click to see Effect of Transmission Line Length on:
 ### Change in Voltage (ΔV)
 
 <img class="pad" src="images/dv.bmp" alt="Voltage Change Graph">
+
+</div>
