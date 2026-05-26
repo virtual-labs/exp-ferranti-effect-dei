@@ -11,7 +11,7 @@
 
 <center>
 
-![Experimental Setup for studying the Ferranti Effect](images/diagram-9.JPG)
+![Experimental Setup for studying the Ferranti Effect](images/diagram-9.jpeg)
 
 **Fig 9.1: Experimental Setup for studying the Ferranti Effect**
 
