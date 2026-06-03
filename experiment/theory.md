@@ -24,7 +24,7 @@ Under open circuit condition Ir = 0 and hence, Vs = Vr - IcR - jwL × Ic i.e., r
 When load current is increased of R-L loads the resultant current is not remains leading, because of the inductive drop. Hence, receiving end voltage (Vr) is lesser than sending end voltage (Vs) under full load conditions.
 
 
-# Equipments Required in Experiment - 9
+## Equipments Required 
 
 <div align="center">
   
