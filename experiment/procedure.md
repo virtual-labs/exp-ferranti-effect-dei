@@ -65,3 +65,24 @@
 <img class="pad" src="images/dv.bmp" alt="Voltage Change Graph">
 
 </div>
+
+## Video for experiment:
+ 
+<br/><br/><br/>
+<div style="text-align: center;">
+    <b style="font-size:18px">Experiment 9. To Study the Ferranti Effect of a transmission line/cable.<br/>Video-1</b><br/><br/>
+    <video width="480" height="360" controls>
+        <source src="videos/Ferranti_gEN.mp4" type="video/mp4">
+    </video>
+</div>
+
+<br/><br/><br/>
+
+<div style="text-align: center;">
+    <b style="font-size:18px">Experiment 9. To Study the Ferranti Effect of a transmission line/cable.<br/>Video-2</b><br/><br/>
+    <video width="480" height="360" controls>
+        <source src="videos/Ferranti Trans X264.mp4" type="video/mp4">
+    </video>
+</div>
+</body>
+</html>
