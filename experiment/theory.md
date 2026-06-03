@@ -1,12 +1,11 @@
 
 
-## Theory: Ferranti Effect
-
+## Theory
 A long transmission line/cables draws a substantial quantity of charging current. If such a line/cable is open circuited or very lightly loaded at the receiving end, the voltage at receiving end may become greater than voltage at sending end due to capacitive reactance. This is known as Ferranti Effect. Both capacitance and inductance is responsible to produce this effect. The capacitance (which is responsible for charging current) is negligible in short line but **significant** in medium line and **appreciable** in long line. Hence, this phenomenon occurs in medium and long lines. The figure shown below is representing a transmission line by an equivalent pi (π)-model. The voltage rise is proportional to the square of the line length.
 
-<center>
-![Ferranti Effect Diagram](images/theory9(2).jpg)
-</center>
+<p align="center">
+  <img src="images/theory9(2).jpg" alt="" width="448" height="101" />
+</p>
 
 
 The Line capacitance is assumed to be concentrated at the receiving end.
@@ -24,10 +23,11 @@ Under open circuit condition Ir = 0 and hence, Vs = Vr - IcR - jwL × Ic i.e., r
 
 When load current is increased of R-L loads the resultant current is not remains leading, because of the inductive drop. Hence, receiving end voltage (Vr) is lesser than sending end voltage (Vs) under full load conditions.
 
-<div align="center">
 
 # Equipments Required in Experiment - 9
 
+<div align="center">
+  
 | Equipment | Image |
 | :--- | :--- |
 | **Fig.1: Motor Generator** | ![Motor Generator](images/exp9/alternator.jpg) |
