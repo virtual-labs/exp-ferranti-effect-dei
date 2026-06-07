@@ -10,10 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
     document.body.appendChild(container);
 
-    const header = document.createElement('header');
-    header.innerHTML = `<h1>Transmission Line Simulator</h1><p>Experiment 9: Ferranti Effect & Voltage Regulation</p>`;
-    container.appendChild(header);
-
     const mainPanel = document.createElement('div');
     mainPanel.className = 'main-panel';
     container.appendChild(mainPanel);
@@ -26,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const controlPanel = document.createElement('div');
     controlPanel.className = 'Base-vp';
     mainPanel.appendChild(controlPanel);
+});
 
     // Control panel contents
     controlPanel.innerHTML = `
