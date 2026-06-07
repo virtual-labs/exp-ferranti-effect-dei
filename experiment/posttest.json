@@ -1,10 +1,8 @@
 {
   "version": 2.0,
-  "quiz_title": "QUIZ - Transmission Lines",
   "questions": [
     {
-     
-      "question": "6. If the receiving end voltage is greater than the sending end voltage, regulation of transmission line is:",
+      "question": "1. If the receiving end voltage is greater than the sending end voltage, regulation of transmission line is:",
       "answers": {
         "a": "Positive",
         "b": "Negative",
@@ -17,12 +15,10 @@
         "c": "Incorrect.",
         "d": "Incorrect."
       },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "correctAnswer": "b"
     },
     {
-
-      "question": "7. The charging current in the transmission line:",
+      "question": "2. The charging current in the transmission line:",
       "answers": {
         "a": "lags the voltage by 90°",
         "b": "leads the voltage by 45°",
@@ -35,12 +31,10 @@
         "c": "Correct. Charging current flows through the shunt capacitance and leads the voltage by 90°.",
         "d": "Incorrect."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
     },
     {
-   
-      "question": "8. The reflection coefficient of an open-ended transmission line is:",
+      "question": "3. The reflection coefficient of an open-ended transmission line is:",
       "answers": {
         "a": "1.0",
         "b": "0.5",
@@ -53,12 +47,10 @@
         "c": "Incorrect. -1 is for short-circuited end.",
         "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "advanced"
+      "correctAnswer": "a"
     },
     {
-     
-      "question": "9. Ferranti effect is experienced on a long overhead transmission lines when it is:",
+      "question": "4. Ferranti effect is experienced on a long overhead transmission lines when it is:",
       "answers": {
         "a": "Lightly loaded",
         "b": "fully load at unity pf",
@@ -71,12 +63,10 @@
         "c": "Incorrect.",
         "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "correctAnswer": "a"
     },
     {
-   
-      "question": "10. The power loss in a transmission line due to charging current is:",
+      "question": "5. The power loss in a transmission line due to charging current is:",
       "answers": {
         "a": "Ic²R",
         "b": "Ic²R/4",
@@ -89,8 +79,7 @@
         "c": "Correct. Since charging current is distributed along the line, effective loss is approximately Ic²R/2.",
         "d": "Incorrect."
       },
-      "correctAnswer": "c",
-      "difficulty": "advanced"
+      "correctAnswer": "c"
     }
   ]
 }
