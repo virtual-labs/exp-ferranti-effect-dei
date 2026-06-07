@@ -2,8 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-     
-      "question": " 1. A transmission line of length more than 160 Km and line voltage higher 100 kV then it is called:",
+      "question": "1. A transmission line of length more than 160 Km and line voltage higher 100 kV then it is called:",
       "answers": {
         "a": "Short Transmission line",
         "b": "Medium Transmission line",
@@ -16,11 +15,9 @@
         "c": "Correct. Lines longer than 160 km and above 100 kV are considered long transmission lines.",
         "d": "Incorrect."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
     },
     {
-     
       "question": "2. If the overhead transmission line is loaded with the loading equal to the surge impedance, then the voltage at receiving end is:",
       "answers": {
         "a": "Greater than the sending end",
@@ -34,11 +31,9 @@
         "c": "Correct. When loaded with surge impedance (Zc), the line is flat-compensated and Vs = Vr.",
         "d": "Incorrect."
       },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "correctAnswer": "c"
     },
     {
-   
       "question": "3. The parameters of a transmission line for exact solution are:",
       "answers": {
         "a": "Distributed parameters",
@@ -52,11 +47,9 @@
         "c": "Incorrect.",
         "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "correctAnswer": "a"
     },
     {
-      
       "question": "4. The value of charging current at the receiving end of the transmission line is:",
       "answers": {
         "a": "Zero",
@@ -70,11 +63,9 @@
         "c": "Incorrect.",
         "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "advanced"
+      "correctAnswer": "a"
     },
     {
-
       "question": "5. The square root of the ratio of line impedance to its shunt admittance is called:",
       "answers": {
         "a": "Regulation of the transmission line",
@@ -88,8 +79,7 @@
         "c": "Incorrect.",
         "d": "Incorrect. Surge admittance is 1/Zc."
       },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "correctAnswer": "b"
     }
   ]
 }
