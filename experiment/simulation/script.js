@@ -10,20 +10,30 @@ document.addEventListener('DOMContentLoaded', () => {
     
     document.body.appendChild(container);
 
-    const mainPanel = document.createElement('div');
-    mainPanel.className = 'main-panel';
-    container.appendChild(mainPanel);
+    // Header
+    const header = document.createElement('header');
+    header.innerHTML = `
+        <h1>Simulation of Experiment - 9</h1>
+        <p>Ferranti Effect and Voltage Regulation of Three-Phase Transmission Line</p>
+    `;
+    container.appendChild(header);
 
-    const circuitArea = document.createElement('div');
-    circuitArea.className = 'circuit-area';
-    circuitArea.id = 'circuit-container';
-    mainPanel.appendChild(circuitArea);
+    // Circuit Diagram Card
+    const circuitCard = document.createElement('div');
+    circuitCard.className = 'circuit-card';
+    circuitCard.innerHTML = `<svg id="circuit-svg" height="250" style="min-width: 600px;"></svg>`;
+    container.appendChild(circuitCard);
 
+    // Lower Interactive Section
+    const lowerSection = document.createElement('div');
+    lowerSection.className = 'lower-section';
+    container.appendChild(lowerSection);
+
+    // Control Panel Box
     const controlPanel = document.createElement('div');
     controlPanel.className = 'Base-vp';
-    mainPanel.appendChild(controlPanel);
-});
-
+    lowerSection.appendChild(controlPanel);
+    
     // Control panel contents
     controlPanel.innerHTML = `
         <div class="panel-header">Simulation Parameters</div>
