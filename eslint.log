@@ -1,0 +1,7 @@
+
+/home/runner/work/exp-ferranti-effect-dei/exp-ferranti-effect-dei/experiment/simulation/script.js
+  81:11  warning  'sendVoltage' is assigned a value but never used  no-unused-vars
+  91:11  warning  'svgArea' is assigned a value but never used      no-unused-vars
+
+✖ 2 problems (0 errors, 2 warnings)
+

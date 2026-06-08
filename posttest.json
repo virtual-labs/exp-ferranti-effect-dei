@@ -1,0 +1,85 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. If the receiving end voltage is greater than the sending end voltage, regulation of transmission line is:",
+      "answers": {
+        "a": "Positive",
+        "b": "Negative",
+        "c": "Zero",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. Positive regulation means Vr < Vs.",
+        "b": "Correct. Regulation = (Vs - Vr)/Vr × 100%. If Vr > Vs, regulation is negative (Ferranti effect).",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "2. The charging current in the transmission line:",
+      "answers": {
+        "a": "lags the voltage by 90°",
+        "b": "leads the voltage by 45°",
+        "c": "leads the voltage by 90°",
+        "d": "leads the voltage by 180°"
+      },
+      "explanations": {
+        "a": "Incorrect. Charging current leads voltage in a capacitor.",
+        "b": "Incorrect.",
+        "c": "Correct. Charging current flows through the shunt capacitance and leads the voltage by 90°.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "3. The reflection coefficient of an open-ended transmission line is:",
+      "answers": {
+        "a": "1.0",
+        "b": "0.5",
+        "c": "-1.0",
+        "d": "2.0"
+      },
+      "explanations": {
+        "a": "Correct. For open-ended line, reflection coefficient Γ = (Z_load - Zc)/(Z_load + Zc) = (∞ - Zc)/(∞ + Zc) = 1.",
+        "b": "Incorrect.",
+        "c": "Incorrect. -1 is for short-circuited end.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "4. Ferranti effect is experienced on a long overhead transmission lines when it is:",
+      "answers": {
+        "a": "Lightly loaded",
+        "b": "fully load at unity pf",
+        "c": "fully load at 0.8 p.f. lag",
+        "d": "none of the above"
+      },
+      "explanations": {
+        "a": "Correct. Ferranti effect (receiving end voltage > sending end voltage) occurs under light load or no-load conditions due to charging current.",
+        "b": "Incorrect.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "5. The power loss in a transmission line due to charging current is:",
+      "answers": {
+        "a": "Ic²R",
+        "b": "Ic²R/4",
+        "c": "Ic²R/2",
+        "d": "Ic²R/8"
+      },
+      "explanations": {
+        "a": "Incorrect. Full Ic²R would be if all charging current flowed through full resistance.",
+        "b": "Incorrect.",
+        "c": "Correct. Since charging current is distributed along the line, effective loss is approximately Ic²R/2.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c"
+    }
+  ]
+}
