@@ -1,1 +1,1 @@
-### Aim of the experiment
+To study the Ferranti Effect of transmission line/cable.
